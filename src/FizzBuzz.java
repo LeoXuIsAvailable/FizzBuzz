@@ -34,6 +34,7 @@ class FizzBuzz {
 }
 
 class FizzBuzz2 {
+    // Adding a comment to see what happens
     public static void main(String[] args) {
         int i = 1;
         while (i < 100) {
