@@ -23,7 +23,7 @@ the HTTPS URL which you will see. You can copy it by clicking the little 'copy' 
 4. Open IntelliJ. If you already have a project open, close that project. From the main screen, choose
 the "Get From VCS" option.
 5. In the menu that appears, paste the URL. You can either use the default location on your computer to save the project
-or you can choose the directory.
+,or you can choose the directory.
     - Note: if you later make another clone of this repository, it will require you to choose a new directory to save it to,
    since you can't have two projects with the exact same directory.
 6. Click the `Clone` button and IntelliJ will set up your project. At this point, it may require you to set up an
@@ -39,7 +39,7 @@ Before we begin, note that IntelliJ is made by the same company as PyCharm, so i
 with the only difference being that we'll be working with Java code instead of Python code of course!
 
 ### Aside: getting to know markdown
-The markdown format is commonly used for things like readme files, as they allow for simple syntax to be incorporated,
+The Markdown format is commonly used for things like readme files, as they allow for simple syntax to be incorporated,
 which allows for basic typesetting when viewed while still being a plaintext format.
 
 Below is a blank checkbox:
@@ -124,7 +124,7 @@ by right-clicking the `src` directory in the `Project` tab and near the bottom o
 you will see `Mark Directory as`. Hover that and then select `Sources Root`. Then run the file.
 The program may take a second to compile and run, but then you should see that it prints out the first 100 outputs of
 this Fizz Buzz problem. Note: you may also need to set your project SDK before you can run your code. There will
-be a warning message in IntelliJ if this is the case and you can click the message to set up the SDK.
+be a warning message in IntelliJ if this is the case, and you can click the message to set up the SDK.
 
 You may never have seen Java before, but we bet you can puzzle out how it works.
 
@@ -149,7 +149,9 @@ This is not the case in Java. You must define a method called `main` in a class
 and tell Java to run the file containing that class.
 
 ```java
-public static void main(String[] args)
+public static void main(String[] args) {
+
+}
 ```
 
 This is the main method, the entry point of your program. You have installed Java,
@@ -231,8 +233,8 @@ have trouble with this, please ask and someone around can help you through the s
 Tip: It is good practice to get in the habit of making commits that are small and have a distinct purpose.
 For example, one might imagine making a commit each time they complete a task they are working on or finish
 making edits to a specific file. Keeping your commits small will allow your commit messages to remain short and descriptive.
-You can make a sequence of adds and commits without pushing. Whenever you decide to push, you can push all of
-the commits at once. As you work through the lab today, we encourage you to practice commiting your changes regularly
+You can make a sequence of adds and commits without pushing. Whenever you decide to push, you can push all the
+commits at once. As you work through the lab today, we encourage you to practice commiting your changes regularly
 (the exact frequency is up to you, but the instructions will remind you periodically!).
 
 Now, back to exploring the code!
@@ -394,7 +396,7 @@ We'll briefly summarize two approaches you might take for this:
 
 2. Have them make a fork of your repository; just as you did at the start of this activity.
 
-3. Have you each make a change to your GitHub repositories (as you did in Task 3.4 before).
+3. Have each person make a change to your GitHub repositories (as you did in Task 3.4 before).
 
 4. Anyone with a fork of your repository will see an option to sync with your repository.
 Similarly, they will also see an option to contribute their changes to your original fork.
@@ -406,7 +408,7 @@ appear when you click the button to contribute.
 ### Giving someone else direct access to your GitHub repository
 
 1. Click on the Settings tab for your repository on GitHub (the right-most tab). In it, there is a Collaborators tab (top-left).
-Click on it and then you will see a button to add people to your project.
+Click on it, and then you will see a button to add people to your project.
 
 2. Add the other person to your project. They can now clone your repository directly using
 the HTTPS URL as you did during the lab.
